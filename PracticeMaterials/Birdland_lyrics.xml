@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Birdland</title></head>
+         <lg>
+            <l>5,000 light years from Birdland</l>
+            <l>But I'm still preachin' the rhythm</l>
+            <l>Long-gone, uptight years from Birdland</l>
+            <l>An' I'm still teachin' it with 'em</l>
+
+            <l> Years from the land of the Bird</l>
+            <l>An' I am still feelin' the spirit</l>
+            <l>5,000 light years from Birdland</l>
+            <l>But I know people can hear it</l>
+
+            <l>Bird named it, Bird made it,</l>
+            <l>Bird heard it, then played it</l>
+            <l>Well-stated! Birdland--</l>
+            <l>It happened down in Birdland</l>
+         </lg>
+
+
+         <lg>
+            <l>In the middle of that hub</l>
+            <l>I remember one jazz club</l>
+            <l>Where we went to pat feet</l>
+            <l>Down on fifty-secon' street</l>
+
+            <l>Everybody heard that word</l>
+            <l>That they named it after Bird</l>
+
+            <l>Where the rhythm swooped and swirled</l>
+            <l>The jazz corner of the world</l>
+
+            <l>An' the cats they gigged in there</l>
+            <l>Were beyond compare</l>
+            <l>Birdland - I'm singin' Birdland</l>
+         </lg>
+
+         <lg>
+            <l>Hey, man, the music really turns you on!</l>
+            <l>Y' turn me on</l>
+            <l>Really, y' turn me aroun'</l>
+            <l>'N turn me on</l>
+         </lg>
+
+         <lg>
+            <l>Down them stairs, lose them cares - where?</l>
+            <l>Down in Birdland</l>
+            <l>Total swing, bop was king - there</l>
+            <l>Down in Birdland</l>
+            <l>Bird would cook, Max would look - where?</l>
+            <l>Down in Birdland</l>
+            <l>Miles came through, 'Trane came too - there</l>
+            <l>Down in Birdland</l>
+            <l>Basie blew, Blakey too - where?</l>
+            <l>Down in Birdland</l>
+            <l>Cannonball played that hall - there</l>
+            <l>Down in Birdland</l>
+            <l>Yeah---</l>
+         </lg>
+
+
+         <lg>
+            <l>There may never be nothin' such as that</l>
+            <l>No Mo' - No Mo'</l>
+            <l>Down in Birdland, that's where it was at</l>
+            <l>I know - I know</l>
+            <l>Back in them days bop was ridin' high</l>
+            <l>Hello! 'n goodbye!</l>
+         </lg>
+
+         <lg>
+            <l>How well those cats remember</l>
+            <l>Their first Birdland gig</l>
+            <l>To play in Birdland is an honor we still dig</l>
+            <l>Yeah---that club was like--</l>
+            <l>In another world, sure enough--</l>
+            <l>Yeah, baby</l>
+            <l>All o' the cats had the cookin' on</l>
+            <l>People just sat an' they was steady lookin' on</l>
+            <l>Then Bird--he came 'n spread the word--</l>
+            <l>Birdland</l>
+         </lg>
+
+         <lg>
+            <l>Yes, indeed, he did</l>
+            <l>Yes, indeed, he did</l>
+            <l>Yes, indeed, he did</l>
+            <l>Yes, he did, Parker played at Birdland</l>
+            <l>Yes, he really did</l>
+            <l>Yes, indeed, he really did</l>
+            <l>Yes, he really did</l>
+            <l>Told the truth down in Birdland</l>
+            <l>Yes, indeed he did, Yardbird Parker played in</l>
+            <l>Birdland</l>
+
+
+            <l>Yes, indeed, he really did</l>
+            <l>Charlie Parker played in Birdland</l>
+         </lg>
+
+         <lg>
+            <l>Bird named it, Bird made it, Bird heard it</l>
+            <l>Then played it</l>
+            <l>Well-stated! Birdland</l>
+            <l>It happened down in Birdland</l>
+         </lg>
+
+         <lg>
+            <l>Everybody dug that beat</l>
+            <l>Everybody stomped their feet</l>
+            <l>Everybody digs be-bop</l>
+            <l>An' they'll never stop</l>
+         </lg>
+
+         <lg>
+            <l>Down them stairs, lose them cares - yeah!</l>
+            <l>Down in Birdland</l>
+            <l>Total swing! bop was king - yeah!</l>
+            <l>Down in Birdland</l>
+
+            <l>Bird would cook, Max would look - yeah</l>
+            <l> Down in Birdland</l>
+            <l> Miles came through, 'Trane came too - yeah!</l>
+            <l>Down in Birdland</l>
+            <l>Basie blew, Blakey too - yeah!</l>
+            <l>Down in Birdland</l>
+
+            <l>Cannonball played that hall - yeah</l>
+            <l>Down in Birdland</l>
+
+            <l>Down them stairs, lose them cares - yeah</l>
+            <l>Down in Birdland</l>
+            <l>Total swing! bop was king - yeah</l>
+            <l>Down in Birdland</l>
+
+            <l>Bird would cook, Max would look - yeah</l>
+            <l>Down in Birdland</l>
+            <l>Miles came through, 'Trane came too - yeah!</l>
+            <l>Down in Birdland</l>
+
+            <l>Basie blew, Blakey too - yeah!</l>
+            <l>Down in Birdland</l>
+            <l>Cannonball played that hall - yeah</l>
+            <l>Down in Birdland</l>
+
+            <l>Down them stairs, lose y' cares -yeah</l>
+            <l>Down in Birdland</l>
+            <l>Total swing! bop was king - yeah</l>
+            <l>Down in Birdland</l>
+
+            <l>Bird would cook, Max would look - yeah</l>
+            <l>Down in Birdland</l>
+         </lg>
+
+         <!--      <head>Background Solo:</head>
+         <lg>Come in pairs down them stairs, lose y' cares
+         Them that dares gits it!
+         
+         Pay the gate, don't be late
+         It's a date! - whattay' know
+         If y' dig, then you'll dig, it's a groove
+         Quite a groove, 'cause y' t' move
+         Come in twos, pay your dues
+         
+         What can you lose?
+         Just your blues!
+         So lose them!
+         
+         The band swingin' one and all and what a ball!
+         Yeah!
+         
+         Music is good, music is better than good
+         Pretty good
+         Very nice
+         Really very good - things are bein' like they should
+         Very good -\- very good -\- very good
+         
+         All y' gotta do is lend an ear
+         An' listen to it
+         Then y' dig a little sooner than soon
+         You'll be diggin' everything diggin' all the music
+         
+         What a ball!
+         
+         How y' gonna figure out
+         A way t' bring it all about amid a
+         Lot o' other music on the set'n on
+         The scene know what I mean?
+         How y' gonna separate the music from the scene
+         'Gonna have t' keep the memory clean
+         Y' gonna hear a lotta' sound -\- a lotta soun'
+         </lg>-->
+      </body>
+   </text>
+</TEI>
