@@ -15,7 +15,7 @@
 	</teiHeader>
 	<text>
 		<body>
-			<pb n="1" />
+			<pb n="1" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity1.jpg" />
 			<p>
 				<lg>
 					<l>MACAVITY: THE MYSTERY CAT</l>
@@ -43,8 +43,9 @@
 					<l>He sways his head from side to side, with movements like a</l>
 					<l>snake;</l>
 					<l>And when you think he&apos;s half asleep, he&apos;s always wide awake.</l>
-					<l>32</l>
 				</lg>
+				
+				<pb n="2" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity2.jpg"/>
 				<lg>
 					<l>Macavity, Macavity, there&apos;s no one like Macavity,</l>
 					<l>For he&apos;s a fiend in feline shape, a monster of depravity.</l>
@@ -68,6 +69,7 @@
 					<l>Macavity, Macavity, there&apos;s no one like Macavity,</l>
 					<l>There never was a Cat of such deceitfulness and suavity.</l>
 				</lg>
+				<pb n="3" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity3.jpg"/>
 				<lg>
 					<l>He always has an alibi, and one or two to spare:</l>
 					<l>At whatever time the deed took place-MACAVITY WASN&apos;T</l>
