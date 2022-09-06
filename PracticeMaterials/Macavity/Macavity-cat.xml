@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Macavity-1</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: dkj004@bucknell.edu</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1" />
+			<p>
+				<lg>
+					<l>MACAVITY: THE MYSTERY CAT</l>
+				</lg>
+			</p>
+			<p>
+				<lg>
+					<l>Macavity&apos;s a Mystery Cat: he&apos;s called the Hidden Paw</l>
+					<l>For he&apos;s the master criminal who can defy the Law.</l>
+					<l>He&apos;s the bafflement of Scotland Yard, the Flying Squad&apos;s</l>
+					<l>despair:</l>
+					<l>For when they reach the scene of crime—Macavity&apos;s not there!</l>
+					<l>Macavity, Macavity, there&apos;s no one like Macavity,</l>
+					<l>He&apos;s broken every human law, he breaks the law of gravity.</l>
+					<l>His powers of levitation would make a fakir stare,</l>
+					<l>And when you reach the scene of crime—Macavity&apos;s not there!</l>
+					<l>You may seek him in the basement, you may look up in the</l>
+					<l>air—</l>
+					<l>But I tell you once and once again, Macavity&apos;s not there!</l>
+					<l>Macavity&apos;s a ginger cat, he&apos;s very tall and thin;</l>
+					<l>You would know him if you saw him, for his eyes are sunken in.</l>
+					<l>His brow is deeply lined with thought, his head is highly</l>
+					<l>domed;</l>
+					<l>His coat is dusty from neglect, his whiskers are uncombed.</l>
+					<l>He sways his head from side to side, with movements like a</l>
+					<l>snake;</l>
+					<l>And when you think he&apos;s half asleep, he&apos;s always wide awake.</l>
+					<l>32</l>
+				</lg>
+				<lg>
+					<l>Macavity, Macavity, there&apos;s no one like Macavity,</l>
+					<l>For he&apos;s a fiend in feline shape, a monster of depravity.</l>
+					<l>You may meet him in a by-street, you may see him in the</l>
+					<l>square--</l>
+					<l>But when a crime&apos;s discovered, then Macavity&apos;s not there!</l>
+					<l>He&apos;s outwardly respectable. (They say he cheats at cards.)</l>
+					<l>And his footprints are not found in any file of Scotland Yard&apos;s.</l>
+					<l>And when the larder&apos;s looted, or the jewel-case is rifled,</l>
+					<l>Or when the milk is missing, or another Peke’s been stifled,</l>
+					<l>Or the greenhouse glass is broken, and the trellis past repair-</l>
+					<l>Ay, there&apos;s the wonder of the thingl Macavity&apos;s not there!</l>
+					<l>And when the Foreign Office find a Treaty&apos;s gone astray,</l>
+					<l>Or the Admiralty lose some plans and drawings by the way,</l>
+					<l>There may be a scrap of paper in the hall or on the stair-</l>
+					<l>But it&apos;s useless to investigate—Macavity&apos;s not there!</l>
+					<l>And when the loss has been disclosed, the Secret Service say:</l>
+					<l>&quot;It must have been Macavityl&quot;—but he&apos;s a mile away.</l>
+					<l>You&apos;ll be sure to find him resting, or a-licking of his thumbs,</l>
+					<l>Or engaged in doing complicated long division sums.</l>
+					<l>Macavity, Macavity, there&apos;s no one like Macavity,</l>
+					<l>There never was a Cat of such deceitfulness and suavity.</l>
+				</lg>
+				<lg>
+					<l>He always has an alibi, and one or two to spare:</l>
+					<l>At whatever time the deed took place-MACAVITY WASN&apos;T</l>
+					<l>THERE!</l>
+					<l>And they say that all the Cats whose wicked deeds are widely</l>
+					<l>known</l>
+					<l>(I might mention Mungojerrie, I might mention Griddlebone)</l>
+					<l>Are nothing more than agents for the Cat who all the time</l>
+					<l>Just controls their operations: the Napoleon of Crimel</l>
+				</lg>
+			</p>
+		</body>
+	</text>
+</TEI>
