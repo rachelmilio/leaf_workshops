@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Henry VIII</title>
+            <title type="short">H8: M</title>
+            <respStmt>
+               <resp ref="resp:edt_coord">Coordinating Editor</resp>
+               <name ref="pers:JENS1">Janelle Jenstad</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online Platform</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This file has been converted from IML, the SGML markup language of the Internet Shakespeare Editions platform. IML files do not indicate the copy or copytext transcribed. LEMDO acknowledges that we are not the main source of transcription, and that we do not know the witness transcribed in this transcription. As time permits, we will compare this transcription to an open-access digital surrogate and align the transcription that surrogate. If you have worked on ISE and/or may have an idea as to the source of this file, please contact lemdopm@uvic.ca.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="emdH8_M_Prologue">
+                  <persName>
+                     <reg>Prologue</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Buckingham">
+                  <persName>
+                     <reg>Buckingham</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Norfolk">
+                  <persName>
+                     <reg>Norfolk</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Abergavenny">
+                  <persName>
+                     <reg>Abergavenny</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Wolsey">
+                  <persName>
+                     <reg>Wolsey</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Secretary">
+                  <persName>
+                     <reg>Secretary</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Brandon">
+                  <persName>
+                     <reg>Brandon</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Sergeant">
+                  <persName>
+                     <reg>Sergeant</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_KingHenry">
+                  <persName>
+                     <reg>King Henry</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Katharine">
+                  <persName>
+                     <reg>Katharine</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Surrey">
+                  <persName>
+                     <reg>Surveyor</reg><!-- TEH added to validate some versions of this speaker -->
+                     <reg>Surrey</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Chamberlain">
+                  <persName>
+                     <reg>Chamberlain</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Sandys">
+                  <persName>
+                     <reg>Sandys</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Lovell">
+                  <persName>
+                     <reg>Lovell</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Guildford">
+                  <persName>
+                     <reg>Guildford</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Anne">
+                  <persName>
+                     <reg>Anne</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Servant">
+                  <persName>
+                     <reg>Servant</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_1Gentleman">
+                  <persName>
+                     <reg>1 Gentleman</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_2Gentleman">
+                  <persName>
+                     <reg>2 Gentleman</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Vaux">
+                  <persName>
+                     <reg>Vaux</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Suffolk">
+                  <persName>
+                     <reg>Suffolk</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Campeius">
+                  <persName>
+                     <reg>Campeius</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Gardiner">
+                  <persName>
+                     <reg>Gardiner</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_OldLady">
+                  <persName>
+                     <reg>Old Lady</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Scribe">
+                  <persName>
+                     <reg>Scribe</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Crier">
+                  <persName>
+                     <reg>Crier</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Griffith">
+                  <persName>
+                     <reg>Griffith</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Lincoln">
+                  <persName>
+                     <reg>Lincoln</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Gentlewoman">
+                  <persName>
+                     <reg>Gentlewoman</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Comwell">
+                  <persName>
+                     <reg>Comwell</reg>
+                     <reg>Cromwell</reg><!-- TEH added to validate other version -->
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_3Gentleman">
+                  <persName>
+                     <reg>3 Gentleman</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Both">
+                  <persName>
+                     <reg>Both</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Patience">
+                  <persName>
+                     <reg>Patience</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Messenger">
+                  <persName>
+                     <reg>Messenger</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Capuchius">
+                  <persName>
+                     <reg>Capuchius</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Chancellor">
+                  <persName>
+                     <reg>Chancellor</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Cranmer">
+                  <persName>
+                     <reg>Cranmer</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_All">
+                  <persName>
+                     <reg>All</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Porter">
+                  <persName>
+                     <reg>Porter</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_One">
+                  <persName>
+                     <reg>One</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Man">
+                  <persName>
+                     <reg>Man</reg>
+                  </persName>
+               </person>
+               <person xml:id="emdH8_M_Epilogue">
+                  <persName>
+                     <reg>Epilogue</reg>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimary"/>
+            <catRef scheme="tax:emdEditorialTreatments" target="cat:letModernSpelling"/>
+            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceIML"/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>No editorial declaration available at this time.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <!--List substantive changes to your file here.-->
+      <revisionDesc status="IML-TEI">
+         <change who="pers:ELHA1" when="2021-01-28">Removed supplied elements that do not have attributes using XSLT. Replace straight apos with curlies, delete consecutive lbs (with n attributes that are not tlns).</change>
+         <change when="2021-01-28" who="pers:ELHA1">Created TEI from IML file.</change>
+      </revisionDesc>
+   </teiHeader>
+   
+  <text>
+      <body>
+            <div type="scene" n="4">
+               
+               <lb type="tln" n="1332"/>
+               <stage type="sound entrance business">Trumpets, Sennet, and Cornets. <lb type="tln" n="1333"/>Enter two Vergers, with <rs type="prop">short silver wands</rs>; next them two <lb type="tln" n="1334"/>Scribes in the <rs type="prop">habite of Doctors</rs>; after them, the Bishop of <lb type="tln" n="1335"/>Canterbury alone; after him, the Bishops of Lincoln, Ely, <lb type="tln" n="1336"/>Rochester, and St. Asaph: Next them, with some small <lb type="tln" n="1337"/>distance, follows a Gentleman bearing the <rs type="prop">Purse</rs>, with the <lb type="tln" n="1338"/>
+                  <rs type="prop">great Seal</rs>, and a <rs type="prop">Cardinal’s Hat</rs>: Then two Priests, <lb type="tln" n="1339"/>bearing each a <rs type="prop">Silver Crosse</rs>: Then a Gentleman Usher <lb type="tln" n="1340"/>bareheaded, accompanied with a Sergeant at Arms, bearing a <lb type="tln" n="1341"/>
+                  <rs type="prop">Silver Mace</rs>: Then two Gentlemen bearing two great <lb type="tln" n="1342"/>
+                  <rs type="prop">Silver Pillers</rs>: After them, side by side, the two Cardinals, <lb type="tln" n="1343"/>two Noblemen, with the <rs type="prop">Sword</rs> and <rs type="prop">Mace</rs>. The King takes <lb type="tln" n="1344"/>place under the <rs type="prop">Cloth of State</rs>. The two Cardinals sit <lb type="tln" n="1345"/>under him as judges. The Queen takes place some <lb type="tln" n="1346"/>distance from the King. The Bishops place themselves on <lb type="tln" n="1347"/>each side the Court in manner of a consistory. Below them, <lb type="tln" n="1348"/>the Scribes. The Lords sit next the Bishops. The rest of the <lb type="tln" n="1349"/>Attendants stand in convenient order about the stage.</stage>
+               
+               <lb type="tln" n="1350"/>
+               <div type="setAsVerse">
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>Whilst our commission from Rome is read 
+
+                        <lb type="tln" n="1351"/>Let silence be commanded.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1352"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>What’s the need?
+
+                        <lb type="tln" n="1353"/>It hath already publicly been read
+
+                        <lb type="tln" n="1354"/>And on all sides th’authority allowed;
+
+                        <lb type="tln" n="1355"/>You may then spare that time.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1356"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>Be’t so; proceed.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1357"/>
+                  <sp who="#emdH8_M_Scribe">
+                     <speaker>Scribe</speaker>
+                     <p>Say, ’Henry King of England, come into the court.’</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1358"/>
+                  <sp who="#emdH8_M_Crier">
+                     <speaker>Crier</speaker>
+                     <p>Henry King of England, come into the court.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1359"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>Here.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1360"/>
+                  <sp who="#emdH8_M_Scribe">
+                     <speaker>Scribe</speaker>
+                     <p>Say, ’Katherine Queen of England,
+
+                        <lb type="tln" n="1361"/>Come into the court.’</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1362"/>
+                  <sp who="#emdH8_M_Crier">
+                     <speaker>Crier</speaker>
+                     <p>Katherine Queen of England, come into the court.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1363"/>
+                  <stage type="business">The Queen makes no answer, rises out of her chair, <lb type="tln" n="1364"/>goes about the court, comes to the King, and kneels at <lb type="tln" n="1365"/>his feet. Then speaks.</stage>
+                  
+                  <lb type="tln" n="1366"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>Sir, I desire you do me right and justice
+
+                        <lb type="tln" n="1367"/>And to bestow your pity on me, for
+
+                        <lb type="tln" n="1368"/>I am a most poor woman, and a stranger
+
+                        <lb type="tln" n="1369"/>Born out of your dominions, having here
+
+                        <lb type="tln" n="1370"/>No judge indifferent, nor no more assurance
+
+                        <lb type="tln" n="1371"/>Of equal friendship and proceeding. Alas, sir:
+
+                        <lb type="tln" n="1372"/>In what have I offended you? What cause
+
+                        <lb type="tln" n="1373"/>Hath my behavior given to your displeasure
+
+                        <lb type="tln" n="1374"/>That thus you should proceed to put me off
+
+                        <lb type="tln" n="1375"/>And take your good grace from me? Heaven witness
+
+                        <lb type="tln" n="1376"/>I have been to you a true and humble wife,
+
+                        <lb type="tln" n="1377"/>At all times to your will conformable;
+
+                        <lb type="tln" n="1378"/>Ever in fear to kindle your dislike;
+
+                        <lb type="tln" n="1379"/>Yea, subject to your countenance, glad or sorry,
+
+                        <lb type="tln" n="1380"/>As I saw it inclined? When was the hour
+
+                        <lb type="tln" n="1381"/>I ever contradicted your desire,
+
+                        <lb type="tln" n="1382"/>Or made it not mine, too? Or which of your friends
+
+                        <lb type="tln" n="1383"/>Have I not strove to love, although I knew
+
+                        <lb type="tln" n="1384"/>He were mine enemy? What friend of mine,
+
+                        <lb type="tln" n="1385"/>That had to him derived your anger, did I
+
+                        <lb type="tln" n="1386"/>Continue in my liking? Nay, gave notice
+
+                        <lb type="tln" n="1387"/>He was from thence discharged? Sir, call to mind
+
+                        <lb type="tln" n="1388"/>That I have been your wife in this obedience
+
+                        <lb type="tln" n="1389"/>Upward of twenty years, and have been blessed
+
+                        <lb type="tln" n="1390"/>With many children by you. If, in the course
+
+                        <lb type="tln" n="1391"/>And process of this time, you can report -
+
+                        <lb type="tln" n="1392"/>And prove it too - against mine honor aught,
+
+                        <lb type="tln" n="1393"/>My bond to wedlock or my love and duty
+
+                        <lb type="tln" n="1394"/>Against your sacred person, in God’s name
+
+                        <lb type="tln" n="1395"/>Turn me away and let the foul’st contempt
+
+                        <lb type="tln" n="1396"/>Shut door upon me, and so give me up
+
+                        <lb type="tln" n="1397"/>To the sharp’st kind of justice. Please you, sir,
+
+                        <lb type="tln" n="1398"/>The king your father was reputed for
+
+                        <lb type="tln" n="1399"/>A prince most prudent, of an excellent
+
+                        <lb type="tln" n="1400"/>And unmatched wit and judgement. Ferdinand,
+
+                        <lb type="tln" n="1401"/>My father, king of Spain, was reckoned one
+
+                        <lb type="tln" n="1402"/>The wisest prince that there had reigned by many
+
+                        <lb type="tln" n="1403"/>A year before. It is not to be questioned
+
+                        <lb type="tln" n="1404"/>That they had gathered a wise council to them
+
+                        <lb type="tln" n="1405"/>Of every realm that did debate this business,
+
+                        <lb type="tln" n="1406"/>Who deemed our marriage lawful. Wherefore I humbly
+
+                        <lb type="tln" n="1407"/>Beseech you, sir, to spare me till I may
+
+                        <lb type="tln" n="1408"/>Be, by my friends in Spain, advised; whose counsel
+
+                        <lb type="tln" n="1409"/>I will implore. If not, i’th’ name of God,
+
+                        <lb type="tln" n="1410"/>Your pleasure be fulfilled.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1411"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>You have here, lady,
+
+                        <lb type="tln" n="1412"/>And of your choice these reverend fathers, men
+
+                        <lb type="tln" n="1413"/>Of singular integrity, and learning;
+
+                        <lb type="tln" n="1414"/>Yea, the elect o’th’Land, who are assembled
+
+                        <lb type="tln" n="1415"/>To plead your cause. It shall be therefore bootless
+
+                        <lb type="tln" n="1416"/>That longer you desire the court, as well
+
+                        <lb type="tln" n="1417"/>For your own quiet as to rectify
+
+                        <lb type="tln" n="1418"/>What is unsettled in the king.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1419"/>
+                  <sp who="#emdH8_M_Campeius">
+                     <speaker>Campeius</speaker>
+                     <p>His grace
+
+                        <lb type="tln" n="1420"/>Hath spoken well and justly; therefore, madam,
+
+                        <lb type="tln" n="1421"/>It’s fit this royal session do proceed,
+
+                        <lb type="tln" n="1422"/>And that (without delay) their arguments
+
+                        <lb type="tln" n="1423"/>Be now produced and heard.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1424"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>Lord cardinal, to you I speak.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1425"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>Your pleasure, madam.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1426"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>Sir, I am about to weep; but thinking that
+
+                        <lb type="tln" n="1427"/>We are a queen (or long have dreamed so), certain
+
+                        <lb type="tln" n="1428"/>The daughter of a king, my drops of tears
+
+                        <lb type="tln" n="1429"/>I‚Äôll turn to sparks of fire.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1430"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>Be patient yet.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1431"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>I will, when you are humble; nay before,
+
+                        <lb type="tln" n="1432"/>Or God will punish me. I do believe
+
+                        <lb type="tln" n="1433"/>(Induced by potent circumstances), that
+
+                        <lb type="tln" n="1434"/>You are mine enemy and make my challenge;
+
+                        <lb type="tln" n="1435"/>You shall not be my judge. For it is you
+
+                        <lb type="tln" n="1436"/>Have blown this coal betwixt my lord and me;
+
+                        <lb type="tln" n="1437"/>(Which God‚Äôs dew quench), therefore I say again
+
+                        <lb type="tln" n="1438"/>I utterly abhor, yea, from my soul
+
+                        <lb type="tln" n="1439"/>Refuse you for my judge, whom yet once more
+
+                        <lb type="tln" n="1440"/>I hold my most malicious foe, and think not
+
+                        <lb type="tln" n="1441"/>At all a friend to truth.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1442"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>I do profess
+
+                        <lb type="tln" n="1443"/>You speak not like yourself who, ever yet,
+
+                        <lb type="tln" n="1444"/>Have stood to charity and displayed th’effects
+
+                        <lb type="tln" n="1445"/>Of disposition gentle, and of wisedome,
+
+                        <lb type="tln" n="1446"/>O‚Äôer-topping woman‚Äôs power. Madam, you do me wrong.
+
+                        <lb type="tln" n="1447"/>I have no spleen against you, nor injustice
+
+                        <lb type="tln" n="1448"/>For you or any. How far I have proceeded,
+
+                        <lb type="tln" n="1449"/>Or how far further shall, is warranted
+
+                        <lb type="tln" n="1450"/>By a commission from the consistory;
+
+                        <lb type="tln" n="1451"/>Yea, the whole consistory of Rome. You charge me
+
+                        <lb type="tln" n="1452"/>That I have blown this coal; I do deny it.
+
+                        <lb type="tln" n="1453"/>The king is present: If it be known to him
+
+                        <lb type="tln" n="1454"/>That I gainsay my deed how may he wound,
+
+                        <lb type="tln" n="1455"/>And worthily, my falsehood; yea, as much
+
+                        <lb type="tln" n="1456"/>As you have done my truth. If he know
+
+                        <lb type="tln" n="1457"/>That I am free of your report, he knows
+
+                        <lb type="tln" n="1458"/>I am not of your wrong. Therefore in him
+
+                        <lb type="tln" n="1459"/>It lies to cure me, and the cure is to
+
+                        <lb type="tln" n="1460"/>Remove these thoughts from you. The which before
+
+                        <lb type="tln" n="1461"/>His highness shall speak in, I do beseech
+
+                        <lb type="tln" n="1462"/>You (gracious madam), to unthink your speaking
+
+                        <lb type="tln" n="1463"/>And to say so no more.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1464"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>My lord, my Lord:
+
+                        <lb type="tln" n="1465"/>I am a simple woman, much too weak
+
+                        <lb type="tln" n="1466"/>T’oppose your cunning. Y’are meek, and humble-mouthed;
+
+                        <lb type="tln" n="1467"/>You sign your place and calling in full seeming,
+
+                        <lb type="tln" n="1468"/>With meekness and humility; but your heart
+
+                        <lb type="tln" n="1469"/>Is crammed with arrogancy, spleen, and pride.
+
+                        <lb type="tln" n="1470"/>You have by fortune, and his highness‚Äôs favors,
+
+                        <lb type="tln" n="1471"/>Gone slightly o‚Äôer low steps and now are mounted
+
+                        <lb type="tln" n="1472"/>Where powers are your retainers and your words
+
+                        <lb type="tln" n="1473"/>(Domestics to you), serve your will as’t please
+
+                        <lb type="tln" n="1474"/>Yourself pronounce their office. I must tell you,
+
+                        <lb type="tln" n="1475"/>You tender more your person‚Äôs honor than
+
+                        <lb type="tln" n="1476"/>Your high profession spiritual. That again
+
+                        <lb type="tln" n="1477"/>I do refuse you for my judge and here,
+
+                        <lb type="tln" n="1478"/>Before you all, appeal unto the pope
+
+                        <lb type="tln" n="1479"/>To bring my whole cause ’fore his holiness
+
+                        <lb type="tln" n="1480"/>And to be judged by him.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1481"/>
+                  <stage type="business">She curtsies to the King, and offers to depart.</stage>
+                  
+                  <lb type="tln" n="1482"/>
+                  <sp who="#emdH8_M_Campeius">
+                     <speaker>Campeius</speaker>
+                     <p>The queen is obstinate,
+
+                        <lb type="tln" n="1483"/>Stubborn to justice, apt to accuse it, and
+
+                        <lb type="tln" n="1484"/>Disdainful to be tried by‚Äôt. ‚ÄôTis not well;
+
+                        <lb type="tln" n="1485"/>She’s going away.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1486"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>Call her again.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1487"/>
+                  <sp who="#emdH8_M_Crier">
+                     <speaker>Crier</speaker>
+                     <p>Katherine, Queen of England, come into the court.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1488"/>
+                  <sp who="#emdH8_M_Griffith">
+                     <speaker>Griffith</speaker>
+                     <p>Madam, you are called back.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1489"/>
+                  <sp who="#emdH8_M_Katharine">
+                     <speaker>Katharine</speaker>
+                     <p>What, need you note it? Pray you keep your way
+
+                        <lb type="tln" n="1490"/>When you are called return. Now, the Lord help,
+
+                        <lb type="tln" n="1491"/>They vex me past my patience. Pray you, pass on;
+
+                        <lb type="tln" n="1492"/>I will not tarry. No, nor ever more
+
+                        <lb type="tln" n="1493"/>Upon this business my appearance make
+
+                        <lb type="tln" n="1494"/>In any of their courts.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1495"/>
+                  <stage type="exit">Exit Queen and her Attendants.</stage>
+                  
+                  <lb type="tln" n="1496"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>Go thy ways, Kate,
+
+                        <lb type="tln" n="1497"/>That man i’th’ world who shall report he has
+
+                        <lb type="tln" n="1498"/>A better wife, let him in naught be trusted
+
+                        <lb type="tln" n="1499"/>For speaking false in that. Thou art alone
+
+                        <lb type="tln" n="1500"/>(If thy rare qualities, sweet gentleness,
+
+                        <lb type="tln" n="1501"/>Thy meekness saint-like, wife-like government,
+
+                        <lb type="tln" n="1502"/>Obeying in commanding, and thy parts
+
+                        <lb type="tln" n="1503"/>Sovereign and pious else, could speak thee out),
+
+                        <lb type="tln" n="1504"/>The queen of earthly queens. She’s noble born,
+
+                        <lb type="tln" n="1505"/>And like her true nobility she has
+
+                        <lb type="tln" n="1506"/>Carried herself towards me.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1507"/>
+                  <sp who="#emdH8_M_Wolsey">
+                     <speaker>Wolsey</speaker>
+                     <p>Most gracious sir,
+
+                        <lb type="tln" n="1508"/>In humblest manner I require your highness
+
+                        <lb type="tln" n="1509"/>That it shall please you to declare in hearing
+
+                        <lb type="tln" n="1510"/>Of all these ears (for where I am robed and bound,
+
+                        <lb type="tln" n="1511"/>There must I be unloosed, although not there
+
+                        <lb type="tln" n="1512"/>At once, and fully satisfied) whether ever I
+
+                        <lb type="tln" n="1513"/>Did broach this business to your highness, or
+
+                        <lb type="tln" n="1514"/>Laid any scruple in your way, which might
+
+                        <lb type="tln" n="1515"/>Induce you to the question on’t; or ever
+
+                        <lb type="tln" n="1516"/>Have to you, but with thanks to God for such
+
+                        <lb type="tln" n="1517"/>A royal lady, spake one the least word that might
+
+                        <lb type="tln" n="1518"/>Be to the prejudice of her present state
+
+                        <lb type="tln" n="1519"/>Or touch of her good person?</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1520"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>My lord cardinal,
+
+                        <lb type="tln" n="1521"/>I do excuse you. Yea, upon mine honor
+
+                        <lb type="tln" n="1522"/>I free you from’t. You are not to be taught
+
+                        <lb type="tln" n="1523"/>That you have many enemies that know not
+
+                        <lb type="tln" n="1524"/>Why they are so, but like to village curs
+
+                        <lb type="tln" n="1525"/>Bark when their fellows do. By some of these
+
+                        <lb type="tln" n="1526"/>The queen is put in anger. Y’are excused;
+
+                        <lb type="tln" n="1527"/>But will you be more justified? You ever
+
+                        <lb type="tln" n="1528"/>Have wished the sleeping of this business, never desired
+
+                        <lb type="tln" n="1529"/>It to be stirred; but oft have hindered, oft
+
+                        <lb type="tln" n="1530"/>The passages made toward it. On my honor
+
+                        <lb type="tln" n="1531"/>I speak, my good lord cardinal, to this point,
+
+                        <lb type="tln" n="1532"/>And thus far clear him.
+
+                        <lb type="tln" n="1533"/>Now, what moved me to’t,
+
+                        <lb type="tln" n="1534"/>I will be bold with time and your attention.
+
+                        <lb type="tln" n="1535"/>Then mark th’ inducement. Thus it came; give heed to’t.
+
+                        <lb type="tln" n="1536"/>My conscience first received a tenderness,
+
+                        <lb type="tln" n="1537"/>Scruple, and prick, on certain speeches uttered
+
+                        <lb type="tln" n="1538"/>By th’ bishop of Bayonne, then French ambassador,
+
+                        <lb type="tln" n="1539"/>Who had beene hither sent on the debating
+
+                        <lb type="tln" n="1540"/>And marriage ’twixt the Duke of Orleans and
+
+                        <lb type="tln" n="1541"/>Our daughter Mary. I’th’ progress of this business,
+
+                        <lb type="tln" n="1542"/>Ere a determinate resolution, he
+
+                        <lb type="tln" n="1543"/>(I meane the Bishop) did require a respite,
+
+                        <lb type="tln" n="1544"/>Wherein he might the king, his lord, advertise
+
+                        <lb type="tln" n="1545"/>Whether our daughter were legitimate,
+
+                        <lb type="tln" n="1546"/>Respecting this our marriage with the dowager
+
+                        <lb type="tln" n="1547"/>Sometimes our brother’s wife. This respite shook
+
+                        <lb type="tln" n="1548"/>The bosom of my conscience; entered me,
+
+                        <lb type="tln" n="1549"/>Yea, with a spitting power and made to tremble
+
+                        <lb type="tln" n="1550"/>The region of my breast which forced such way
+
+                        <lb type="tln" n="1551"/>That many ’mazed considerings did throng
+
+                        <lb type="tln" n="1552"/>And pressed in with this caution. First, methought
+
+                        <lb type="tln" n="1553"/>I stood not in the smile of heaven, who had
+
+                        <lb type="tln" n="1554"/>Commanded nature, that my lady’s womb,
+
+                        <lb type="tln" n="1555"/>If it conceived a male child by me should
+
+                        <lb type="tln" n="1556"/>Do no more offices of life to’t than
+
+                        <lb type="tln" n="1557"/>The grave does to th’ dead. For her male issue
+
+                        <lb type="tln" n="1558"/>Or died where they were made, or shortly after
+
+                        <lb type="tln" n="1559"/>This world had aired them. Hence I took a thought,
+
+                        <lb type="tln" n="1560"/>This was a judgement on me, that my kingdom
+
+                        <lb type="tln" n="1561"/>(Well worthy the best heir o’th’ world), should not
+
+                        <lb type="tln" n="1562"/>Be gladded in’t by me. Then follows that
+
+                        <lb type="tln" n="1563"/>I weighed the danger, which my realms stood in
+
+                        <lb type="tln" n="1564"/>By this my issue’s fail, and that gave to me
+
+                        <lb type="tln" n="1565"/>Many a groaning throw. Thus hulling in
+
+                        <lb type="tln" n="1566"/>The wild sea of my conscience I did steer
+
+                        <lb type="tln" n="1567"/>Toward this remedy, whereupon we are
+
+                        <lb type="tln" n="1568"/>Now present here together: that’s to say
+
+                        <lb type="tln" n="1569"/>I meant to rectify my conscience, which
+
+                        <lb type="tln" n="1570"/>I then did feel full sick, and yet not well
+
+                        <lb type="tln" n="1571"/>By all the reverend fathers of the land
+
+                        <lb type="tln" n="1572"/>And doctors learned. First I began in private,
+
+                        <lb type="tln" n="1573"/>With you my lord of Lincoln; you remember
+
+                        <lb type="tln" n="1574"/>How, under my oppression, I did reek
+
+                        <lb type="tln" n="1575"/>When I first moved you.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1576"/>
+                  <sp who="#emdH8_M_Lincoln">
+                     <speaker>Lincoln</speaker>
+                     <p>Very well, my liege.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1577"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>I have spoke long, be pleased yourself to say
+
+                        <lb type="tln" n="1578"/>How far you satisfied me.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1579"/>
+                  <sp who="#emdH8_M_Lincoln">
+                     <speaker>Lincoln</speaker>
+                     <p>So please your highness,
+
+                        <lb type="tln" n="1580"/>The question did at first so stagger me,
+
+                        <lb type="tln" n="1581"/>Bearing a state of mighty moment in’t
+
+                        <lb type="tln" n="1582"/>And consequence of dread, that I committed
+
+                        <lb type="tln" n="1583"/>The daringest counsel which I had to doubt,
+
+                        <lb type="tln" n="1584"/>And did entreat your highness to this course
+
+                        <lb type="tln" n="1585"/>Which you are running heere.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1586"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>I then moved you
+
+                        <lb type="tln" n="1587"/>My Lord of Canterbury, and got your leave
+
+                        <lb type="tln" n="1588"/>To make this present summons unsolicited.
+
+                        <lb type="tln" n="1589"/>I left no reverend person in this court,
+
+                        <lb type="tln" n="1590"/>But by particular consent proceeded
+
+                        <lb type="tln" n="1591"/>Under your hands and seals; therefore go on,
+
+                        <lb type="tln" n="1592"/>For no dislike i’th’ world against the person
+
+                        <lb type="tln" n="1593"/>Of the good queen but the sharp, thorny points
+
+                        <lb type="tln" n="1594"/>Of my alleged reasons drives this forward.
+
+                        <lb type="tln" n="1595"/>Prove but our marriage lawful, by my life
+
+                        <lb type="tln" n="1596"/>And kingly dignity, we are contented
+
+                        <lb type="tln" n="1597"/>To wear our mortal state to come with her,
+
+                        <lb type="tln" n="1598"/>(Katherine our queen), before the primest creature
+
+                        <lb type="tln" n="1599"/>That’s paragoned o’th’ world.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1600"/>
+                  <sp who="#emdH8_M_Campeius">
+                     <speaker>Campeius</speaker>
+                     <p>So please your highness,
+
+                        <lb type="tln" n="1601"/>The queen being absent, ’tis a needful fitness
+
+                        <lb type="tln" n="1602"/>That we adjourn this court till further day.
+
+                        <lb type="tln" n="1603"/>Meanwhile, must be an earnest motion
+
+                        <lb type="tln" n="1604"/>Made to the queen to call back her appeal
+
+                        <lb type="tln" n="1605"/>She intends unto his holiness.</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1606"/>
+                  <sp who="#emdH8_M_KingHenry">
+                     <speaker>King Henry</speaker>
+                     <p>I may perceive
+
+                        <lb type="tln" n="1607"/>These cardinals trifle with me. I abhor
+
+                        <lb type="tln" n="1608"/>This dilatory sloth and tricks of Rome.
+
+                        <lb type="tln" n="1609"/>My learned and well-beloved servant Cranmer,
+
+                        <lb type="tln" n="1610"/>Prithee return; with thy approach I know
+
+                        <lb type="tln" n="1611"/>My comfort comes along. Break up the court;
+
+                        <lb type="tln" n="1612"/>I say, set on!</p>
+                  </sp>
+                  
+                  <lb type="tln" n="1613"/>
+                  <stage type="exit">Exeunt, in manner as they entered.</stage>
+               </div>
+            </div>
+      </body>
+  </text>
+</TEI>
