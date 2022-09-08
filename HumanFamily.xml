@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Human Family</title>
+            <author>Maya Angelou</author>
+            <editor sameAs="www.cwrc.ca/person/someID">Editor Name</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc sameAs="http://www.cwrc.ca">
+            <p>Created by members of CWRC/CSÉC unless otherwise noted.</p>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+         
+         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"cito": "http://purl.org/spar/cito/"
+	},
+	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family?citation_annotation_20210504113214603",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-04T17:32:14.603Z",
+	"dcterms:modified": "2021-05-04T17:32:14.603Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family?citation_annotation_20210504113214603#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family?citation_annotation_20210504113214603#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": "Angelou, Maya. The Complete Collected Poems of Maya Angelou. New York: Random House, 1994. Print."
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family?citation_annotation_20210504113214603#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/ilovan/Git-Writer-demos/master/human_family?citation_annotation_20210504113214603",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q17060261",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head type="poem">
+               <title level="a">Human Family</title>
+            </head><byline>By Maya Angelou</byline>
+            <lg><l>I note the obvious differences</l>
+               <l>in the human family.</l>
+               <l>Some of us are serious,</l>
+               <l>some thrive on comedy.</l></lg>
+            
+            <lg><l>Some declare their lives are lived</l>
+               <l>as true profundity,</l>
+               <l>and others claim they really live</l>
+               <l>the real reality.</l></lg>
+            
+            <lg><l>The variety of our skin tones</l>
+               <l>can confuse, bemuse, delight,</l>
+               <l>brown and pink and beige and purple,</l>
+               <l>tan and blue and white.</l></lg>
+            
+            <lg><l>I've sailed upon the seven seas</l>
+               <l>and stopped in every land,</l>
+               <l>I've seen the wonders of the world</l>
+               <l>not yet one common man.</l></lg>
+            
+            <lg><l>I know ten thousand women</l>
+               <l>called Jane and Mary Jane,</l>
+               <l>but I've not seen any two</l>
+               <l>who really were the same.</l></lg>
+            
+            <lg><l>Mirror twins are different</l>
+               <l>although their features jibe,</l>
+               <l>and lovers think quite different thoughts</l>
+               <l>while lying side by side.</l></lg>
+            
+            <lg><l>We love and lose in China,</l>
+               <l>we weep on England's moors,</l>
+               <l>and laugh and moan in Guinea,</l>
+               <l>and thrive on Spanish shores.</l></lg>
+            
+            <lg><l>We seek success in Finland,</l>
+               <l>are born and die in Maine.</l>
+               <l>In minor ways we differ,</l>
+               <l>in major we're the same.</l></lg>
+            
+            <lg><l>I note the obvious differences</l>
+               <l>between each sort and type,</l>
+               <l>but we are more alike, my friends,</l>
+               <l>than we are unalike.</l></lg>
+            
+            <lg><l>We are more alike, my friends,</l>
+               <l>than we are unalike.</l></lg>
+            
+            <lg><l>We are more alike, my friends,</l>
+               <l>than we are unalike.</l></lg>
+            <div>
+               <ab>Angelou, Maya. The Complete Collected Poems of Maya Angelou. New York: Random House, 1994. Print.
+               <note type="citation">
+                  <bibl><ref target="http://www.wikidata.org/entity/Q17060261"/>Angelou, Maya. The Complete Collected Poems of Maya Angelou. New York: Random House, 1994. Print.</bibl>
+               </note>
+               </ab>
+            </div>
+            
+         </div>
+         
+      </body>
+   </text>
+</TEI>
