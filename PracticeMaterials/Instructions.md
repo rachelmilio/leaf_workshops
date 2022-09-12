@@ -2,6 +2,7 @@
 
 ## Exercise 1
 ### Structural encoding
+
 Files can be found in Section1_ExerciseFiles folder
 
 We'll be working with the Macavity_cat.xml poem
@@ -46,3 +47,4 @@ We'll be working with the EBB_poem.xml file. You can work with the Joan Braderma
     * Add research notes
  
 ## NERVE Demo
+
