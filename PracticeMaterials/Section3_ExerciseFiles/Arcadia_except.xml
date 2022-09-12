@@ -19,23 +19,29 @@
    </teiHeader>
    <text>
       <front>
-            <titlePage>
-               <docTitle>
-                  <titlePart>Arcadia</titlePart>
-               </docTitle>
-               <docAuthor>Tom Stoppard</docAuthor>
-            </titlePage>
-            <castList>
-               <castItem xml:id="croom">Lady Croom</castItem>
-               <castItem xml:id="thomasina">Thomasina Coverly</castItem>
-               <castItem xml:id="septimus">Septimus Hodge</castItem>
-               <castItem xml:id="noakes">Richard Noakes</castItem>
-               <castItem xml:id="augustus">Augustus Croom</castItem>
-            </castList>
-         
+         <titlePage>
+            <docTitle>
+               <titlePart>Arcadia</titlePart>
+            </docTitle>
+            <docAuthor>Tom Stoppard</docAuthor>
+         </titlePage>
+         <castList>
+            <castItem xml:id="thomasina">Thomasina Coverly <roleDesc>The 13-year-old (later
+                  16-year-old) daughter of Lord and Lady Croom.</roleDesc></castItem>
+            <castItem xml:id="septimus">Septimus Hodge <roleDesc>Thomasina's
+               tutor.</roleDesc></castItem>
+            <castItem xml:id="croom">Lady Croom <roleDesc>Thomasina and Augustus's
+               mother</roleDesc></castItem>
+            <castItem xml:id="noakes">Richard Noakes <roleDesc>Lady Croom's
+               gardener</roleDesc></castItem>
+            <castItem xml:id="augustus">Augustus Coverly <roleDesc>Thomasina's younger
+                  brother</roleDesc></castItem>
+         </castList>
+
       </front>
 
-<body>         <note>Excerpt from Act 2</note>
+      <body>
+         <note>Excerpt from Act 2</note>
 
          <stage>Thomasina thumps the book down on the table.</stage>
 
@@ -94,10 +100,12 @@
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
-            <ab>How old are you today?</ab></sp> 
-         
-         <sp><speaker>Thomasina:</speaker> <ab>Sixteen years and eleven months, mama, and three
-               weeks.</ab>
+            <ab>How old are you today?</ab>
+         </sp>
+
+         <sp>
+            <speaker>Thomasina:</speaker>
+            <ab>Sixteen years and eleven months, mama, and three weeks.</ab>
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
@@ -228,9 +236,12 @@
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
-            <ab>And who is to live in it?</ab></sp> 
-         
-         <sp><speaker>Noakes:</speaker> <ab>Why, the hermit.</ab>
+            <ab>And who is to live in it?</ab>
+         </sp>
+
+         <sp>
+            <speaker>Noakes:</speaker>
+            <ab>Why, the hermit.</ab>
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
@@ -298,9 +309,12 @@
          </sp>
          <sp>
             <speaker>Thomasina:</speaker>
-            <ab>Mr Noakes - bad news from Paris!</ab></sp> 
-         
-         <sp><speaker>Noakes:</speaker> <ab>Is it the Emperor Napoleon?</ab>
+            <ab>Mr Noakes - bad news from Paris!</ab>
+         </sp>
+
+         <sp>
+            <speaker>Noakes:</speaker>
+            <ab>Is it the Emperor Napoleon?</ab>
          </sp>
          <sp>
             <speaker>Thomasina:</speaker>
