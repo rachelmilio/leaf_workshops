@@ -14,8 +14,7 @@
 	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<pb n="1" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity1.jpg"/>
-
+			<pb n="1" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section1_ExerciseFiles/Macavity1.jpg"/>
 				<head>
 					MACAVITY: THE MYSTERY CAT
 				</head>
@@ -43,7 +42,7 @@
 					And when you think he's half asleep, he's always wide awake. //
 				</ab>
 				
-				<pb n="2" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity2.jpg"/>
+				<pb n="2" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section1_ExerciseFiles/Macavity2.jpg"/>
 				<ab>
 					Macavity, Macavity, there's no one like Macavity, //
 					For he's a fiend in feline shape, a monster of depravity. //
@@ -67,7 +66,7 @@
 					Macavity, Macavity, there's no one like Macavity, //
 					There never was a Cat of such deceitfulness and suavity. //
 				</ab>
-				<pb n="3" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Macavity/Macavity3.jpg"/>
+				<pb n="3" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section1_ExerciseFiles/Macavity3.jpg"/>
 				<ab>
 					He always has an alibi, and one or two to spare: //
 					At whatever time the deed took place-MACAVITY WASN'T /
