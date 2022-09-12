@@ -13,7 +13,13 @@
             <p>Text prepared for LEAF-Writer workshop by LEAF team.</p>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <list>
+               <item xml:id="thomasina">Thomasina Coverly</item>
+               <item xml:id="septimus">Septimus Hodge</item>
+               <item xml:id="croom">Lady Croom</item>
+               <item xml:id="noakes">Richard Noakes</item>
+               <item xml:id="augustus">Augustus Coverly</item>
+            </list>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -26,15 +32,15 @@
             <docAuthor>Tom Stoppard</docAuthor>
          </titlePage>
          <castList>
-            <castItem xml:id="thomasina">Thomasina Coverly <roleDesc>The 13-year-old (later
-                  16-year-old) daughter of Lord and Lady Croom.</roleDesc></castItem>
-            <castItem xml:id="septimus">Septimus Hodge <roleDesc>Thomasina's
-               tutor.</roleDesc></castItem>
-            <castItem xml:id="croom">Lady Croom <roleDesc>Thomasina and Augustus's
-               mother</roleDesc></castItem>
-            <castItem xml:id="noakes">Richard Noakes <roleDesc>Lady Croom's
-               gardener</roleDesc></castItem>
-            <castItem xml:id="augustus">Augustus Coverly <roleDesc>Thomasina's younger
+            <castItem>Thomasina Coverly <roleDesc>The 13-year-old (later
+                  16-year-old) daughter of Lord and Lady Croom.</roleDesc></castItem><lb/>
+            <castItem>Septimus Hodge <roleDesc>Thomasina's
+               tutor.</roleDesc></castItem><lb/>
+            <castItem >Lady Croom <roleDesc>Thomasina and Augustus's
+               mother</roleDesc></castItem><lb/>
+            <castItem>Richard Noakes <roleDesc>Lady Croom's
+               gardener</roleDesc></castItem><lb/>
+            <castItem>Augustus Coverly <roleDesc>Thomasina's younger
                   brother</roleDesc></castItem>
          </castList>
 
