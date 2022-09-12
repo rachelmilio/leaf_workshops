@@ -3,10 +3,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>The Heresies Project</title>
+				<title>Macavity: the Mystery Cat</title>
+				<author>T. S. Eliot</author>
 			</titleStmt>
 			<publicationStmt>
-				<p>A Bucknell Production</p>
+				<p>Text prepared for LEAF-Writer workshop by LEAF team. Transcription done with Transkribus HTR engine.</p>
 			</publicationStmt>
 			<sourceDesc>
 				<p>Information about the source</p>
