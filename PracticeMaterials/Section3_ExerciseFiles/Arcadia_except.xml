@@ -6,22 +6,37 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Arcadia</title>
+            <author>Tom Stoppard</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Text prepared for LEAF-Writer workshop by LEAF team.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p/>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
-      <body>
-         <head><title>Arcadia</title>
-            <lb/>
-            <name>by Tom Stoppard</name></head>
-         <p>Exercpt from Act 2</p>
+      <front>
+            <titlePage>
+               <docTitle>
+                  <titlePart>Arcadia</titlePart>
+               </docTitle>
+               <docAuthor>Tom Stoppard</docAuthor>
+            </titlePage>
+            <castList>
+               <castItem xml:id="croom">Lady Croom</castItem>
+               <castItem xml:id="thomasina">Thomasina Coverly</castItem>
+               <castItem xml:id="septimus">Septimus Hodge</castItem>
+               <castItem xml:id="noakes">Richard Noakes</castItem>
+               <castItem xml:id="augustus">Augustus Croom</castItem>
+            </castList>
+         
+      </front>
+
+<body>         <note>Excerpt from Act 2</note>
+
          <stage>Thomasina thumps the book down on the table.</stage>
 
          <sp>
@@ -79,7 +94,9 @@
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
-            <ab>How old are you today? Thomasina: Sixteen years and eleven months, mama, and three
+            <ab>How old are you today?</ab></sp> 
+         
+         <sp><speaker>Thomasina:</speaker> <ab>Sixteen years and eleven months, mama, and three
                weeks.</ab>
          </sp>
          <sp>
@@ -211,7 +228,9 @@
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
-            <ab>And who is to live in it? Noakes: Why, the hermit.</ab>
+            <ab>And who is to live in it?</ab></sp> 
+         
+         <sp><speaker>Noakes:</speaker> <ab>Why, the hermit.</ab>
          </sp>
          <sp>
             <speaker>Lady Croom:</speaker>
@@ -279,7 +298,9 @@
          </sp>
          <sp>
             <speaker>Thomasina:</speaker>
-            <ab>Mr Noakes - bad news from Paris! Noakes: Is it the Emperor Napoleon?</ab>
+            <ab>Mr Noakes - bad news from Paris!</ab></sp> 
+         
+         <sp><speaker>Noakes:</speaker> <ab>Is it the Emperor Napoleon?</ab>
          </sp>
          <sp>
             <speaker>Thomasina:</speaker>
