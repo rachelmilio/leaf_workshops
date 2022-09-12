@@ -32,7 +32,7 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div>
+
 			<pb n="1"
 				facs="https:raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section1_ExerciseFiles/Macavity1.jpg"/>
 			<head> MACAVITY: THE MYSTERY CAT </head>
@@ -78,7 +78,7 @@
 				widely known (I might mention Mungojerrie, I might mention Griddlebone) Are nothing
 				more than agents for the Cat who all the time Just controls their operations: the
 				Napoleon of Crimel </ab>
-			</div>
+			
 		</body>
 	</text>
 </TEI>
