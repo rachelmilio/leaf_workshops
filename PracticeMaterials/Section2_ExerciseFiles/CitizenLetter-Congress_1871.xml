@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title>Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others in
-               Support of Women's Suffrage</title>
+               Support of Women's Right to Vote in the United States, 1871</title>
          </titleStmt>
          <publicationStmt>
             <p>This primary source comes from the Records of the U.S. Senate. National Archives
@@ -24,8 +24,9 @@
    <text>
       <body>
          <pb cert="high" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section2_ExerciseFiles/congress_letter_facsimile_1871.jpg" xml:space="default"/>
-         <opener><salute>To the Honorable the Senate and House of Representatives of the United States in
-            Congress Assembled:</salute></opener>
+
+         <p>To the Honorable the Senate and House of Representatives of the United States in
+            Congress Assembled:</p>
          <p>The undersigned, Citisens of the United States, believing that under the present Federal
             Constitution all women who are citisens of the United States have the right to vote,
             pray your Honorable Body to enact a law during the present session that shall assist and
@@ -37,15 +38,14 @@
          <p>We ask your Honorable Body to bear in mind that while men are represented on the floor of Congress and so may be said to be heard there, women who are
             allowed no vote and therefore no representation cannot truly be heard except as Congress
             shall open its doors to us in person.</p>
-         <closer>
-            <signed>Elizabeth Cady Stanton
-         Isabella Beecher Hooker
-         Elizabeth S. Bladen
-         Olympia Brown
-         Susan B. Anthony
-         Josephine S. Griffing</signed>
-         <dateline>Hartford Conn.
-         Dec. 1871</dateline>
-         </closer></body>
+         <p>Elizabeth Cady Stanton 
+         Isabella Beecher Hooker 
+         Elizabeth S. Bladen 
+         Olympia Brown 
+         Susan B. Anthony 
+         Josephine S. Griffing 
+         Hartford Conn. 
+         Dec. 1871</p>
+      </body>
    </text>
 </TEI>
