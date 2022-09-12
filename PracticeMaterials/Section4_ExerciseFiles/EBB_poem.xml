@@ -20,7 +20,9 @@
   </teiHeader>
   <text>
       <body>
-         <head><title>Elizabeth Barrett Browning</title></head>
+         <head>Elizabeth Barrett Browning</head>
+            <byline><docAuthor>Vachel Lindsay</docAuthor></byline>
+
          <lg>
             <l n="1">Elizabeth Barrett Browning</l>
          <l n="2">Sat gossiping with Robert.</l>
