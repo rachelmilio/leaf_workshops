@@ -1,3 +1,13 @@
+# TEI2022 LEAF-Writer Workshop
+This workshop provides an introduction to the new web-based TEI-XML text editor.
+Presenters: Diane Jakacki, Susan Brown, James Cummings, Mihaela Ilovan, Rachel Milio
+To access LEAF-Writer: https://leaf-writer.leaf-vre.org/[https://leaf-writer.leaf-vre.org/](https://leaf-writer.leaf-vre.org/)
+
+
+Access the Google slides for this workshop: https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing[https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing](https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing)
+
+
+
 # Exercise instructions
 
 ## Exercise 1
@@ -16,18 +26,6 @@ We'll be working with the Macavity_cat.xml poem
 ### Semantic encoding
 Files can be found in Section2_ExerciseFiles folder
 
-We'll be working with the CitizenLetter-Congress_1871 letter. You can work with the Disney letter on your own.
-
-* Tasks:
-    * Add opener and closer portions of letter
-    * Tag persons, places, organizations, dates  
-
-(break)
-
-## Exercise 3
-### Entity tagging
-Files can be found in Section3_ExerciseFiles folder
-
 We'll be working with the Arcadia_excerpt.xml play section. You can go back and work more on Macavity on your own.
 
 * Tasks:
@@ -35,6 +33,20 @@ We'll be working with the Arcadia_excerpt.xml play section. You can go back and 
     * Add stage direction types to stage elements
     * Tag characters (in dialogue), objects
         * add categories for objects, real/fictional attributes to people
+
+(break)
+
+## Exercise 3
+### Entity tagging
+Files can be found in Section3_ExerciseFiles folder
+
+
+
+We'll be working with the CitizenLetter-Congress_1871 letter. You can work with the Disney letter on your own.
+
+* Tasks:
+    * Add opener and closer portions of letter
+    * Tag person, place, organization, title, date entities
 
 ## Exercise 4
 ### Notes & apparatus
