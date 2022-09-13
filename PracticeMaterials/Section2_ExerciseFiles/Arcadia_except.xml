@@ -1,474 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_drama.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_drama.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arcadia</title>
-            <author>Tom Stoppard</author>
+            <title>Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others in
+               Support of Women's Right to Vote in the United States, 1871</title>
          </titleStmt>
          <publicationStmt>
             <p>Text prepared for LEAF-Writer workshop by LEAF team.</p>
+            
          </publicationStmt>
          <sourceDesc>
-            <list>
-               <item xml:id="thomasina">Thomasina Coverly</item>
-               <item xml:id="septimus">Septimus Hodge</item>
-               <item xml:id="croom">Lady Croom</item>
-               <item xml:id="noakes">Richard Noakes</item>
-               <item xml:id="augustus">Augustus Coverly</item>
-            </list>
+            <p>This primary source comes from the Records of the U.S. Senate. National Archives
+               Identifier: 1634184 Full Citation: Letter to the United States Congress from
+               Elizabeth Cady Stanton and Susan B. Anthony and Others in Support of Women's
+               Suffrage; 12/1871; Petition and Memorials, Resolutions of State Legislatures, and
+               Related Documents which were Referred to the Committee on the Judiciary during the
+               42nd Congress; (SEN 42A-H11.4); Committee Papers, 1816 - 2011; Records of the U.S.
+               Senate, Record Group 46; National Archives Building, Washington, DC. [Online Version,
+               https://www.docsteach.org/documents/document/congress-stanton-anthony, August 27,
+               2022]</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <front>
-         <titlePage>
-            <docTitle>
-               <titlePart>Arcadia</titlePart>
-            </docTitle>
-            <docAuthor>Tom Stoppard</docAuthor>
-         </titlePage>
-         <castList>
-            <castItem>Thomasina Coverly <roleDesc>The 13-year-old (later
-                  16-year-old) daughter of Lord and Lady Croom.</roleDesc></castItem><lb/>
-            <castItem>Septimus Hodge <roleDesc>Thomasina's
-               tutor.</roleDesc></castItem><lb/>
-            <castItem >Lady Croom <roleDesc>Thomasina and Augustus's
-               mother</roleDesc></castItem><lb/>
-            <castItem>Richard Noakes <roleDesc>Lady Croom's
-               gardener</roleDesc></castItem><lb/>
-            <castItem>Augustus Coverly <roleDesc>Thomasina's younger
-                  brother</roleDesc></castItem>
-         </castList>
-
-      </front>
-
       <body>
-         <note>Excerpt from Act 2</note>
+         <pb cert="high" facs="https://raw.githubusercontent.com/djakacki/leaf_workshops/main/PracticeMaterials/Section3_ExerciseFiles/congress_letter_facsimile_1871.jpg" xml:space="default"/>
 
-         <stage>Thomasina thumps the book down on the table.</stage>
-
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Well! Just as I said! Newton's machine which would knock our atoms from cradle to
-               grave by the laws of motion is incomplete! Determinism leaves the road at every
-               corner, as I knew all along, and the cause is very likely hidden in this gentleman's
-               observation.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab> Of what?</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>The action of bodies in heat.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Is this geometry?</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>This? No, I despise geometry! <stage>(Touching the dahlias she adds, almost to
-                  herself.)</stage> The Chater would overthrow the Newtonian system in a
-               weekend.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Geometry, Hobbes assures us in the Leviathan, is the only science God has been
-               pleased to bestow on mankind.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>And what does he mean by it?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Mr Hobbes or God?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>I am sure I do not know what either means by it.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Oh, pooh to Hobbes! Mountains are not pyramids and trees are not cones. God must
-               love gunnery and architecture if Euclid is his only geometry. There is another
-               geometry which I am engaged in discovering by trial and error, am I not,
-               Septimus?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Trial and error perfectly describes your enthusiasm, my lady.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>How old are you today?</ab>
-         </sp>
-
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Sixteen years and eleven months, mama, and three weeks.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Sixteen years and eleven months. We must have you married before you are educated
-               beyond eligibility.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>I am going to marry Lord Byron.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Are you? He did not have the manners to mention it.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>You have spoken to him?!</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Certainly not.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Where did you see him?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <stage>(With some bitterness)</stage>
-            <ab>Everywhere.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Did you, Septimus?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>At the Royal Academy where I had the honour to accompany your mother and Count
-               Zelinsky.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>What was Lord Byron doing?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Posing.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <stage>(Tactfully)</stage>
-            <ab>He was being sketched during his visit. by the Professor of Painting ... Mr
-               Fuseli.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>There was more posing at the pictures than in them. His companion likewise reversed
-               the custom of the Academy that the ladies viewing wear more than the ladies viewed -
-               well, enough! Let him be hanged there for a Lamb. I have enough with Mr Noakes, who
-               is to a garden what a bull is to a china shop.</ab>
-            <stage>(This as Noakes enters.)</stage>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>The Emperor of Irregularity!</ab>
-         </sp>
-         <stage>(She settles down to drawing the diagram which is to be the third item in the
-            surviving portfolio.)</stage>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Mr Noakes!</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Your ladyship -</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>What have you done to me!</ab>
-         </sp>
-
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Everything is satisfactory, I assure you. A little behind, to be sure, but my dam
-               will be repaired within the month -</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab><stage>(Banging the table)</stage> Hush! <stage>(In the silence, the steam engine
-                  thumps in the distance.)</stage> Can you hear, Mr Noakes?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab><stage>(Pleased and proud)</stage> The Improved Newcomen steam pump - the only one
-               in England!</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>That is what I object to. If everybody had his own I would bear my portion of the
-               agony without complaint. But to have been singled out by the only Improved Newcomen
-               steam pump in England, this is hard, sir, this is not to be borne.</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Your lady-</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>And for what? My lake is drained to a ditch for no purpose I can understand, unless
-               it be that snipe and curlew have deserted three counties so that they may be shot in
-               our swamp. What you painted as forest is a mean plantation, your greenery is mud,
-               your waterfall is wet mud, and your mount is an opencast mine for the mud that was
-               lacking in the dell. <stage>(Pointing through the window.)</stage> What is that
-               cowshed?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>The hermitage, my lady?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>It is a cowshed.</ab>
-         </sp>
-         <sp>
-            <speaker> Noakes:</speaker>
-            <ab>Madam, it is, I assure you, a very habitable cottage, properly founded and drained,
-               two rooms and a closet under a slate roof and a stone chimney -</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>And who is to live in it?</ab>
-         </sp>
-
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Why, the hermit.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Where is he?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Madam?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>You surely do not supply a hermitage without a hermit?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Indeed, madam-</ab>
-         </sp>
-
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Come, come, Mr Noakes. If I am promised a fountain I expect it to come with water.
-               What hermits do you have?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>I have no hermits, my lady.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Not one? I am speechless.</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>I am sure a hermit can be found. One could advertise.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Advertise?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>In the newspapers.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>But surely a hermit who takes a newspaper is not a hermit in whom one can have
-               complete confidence.</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>I do not know what to suggest, my lady.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Is there room for a piano?</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab><stage>(Baffled)</stage> A piano?</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>We are intruding here - this will not do, Mr Hodge. Evidently, nothing is being
-               learned. <stage>(To Noakes)</stage> Come along, sir!</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Mr Noakes - bad news from Paris!</ab>
-         </sp>
-
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab>Is it the Emperor Napoleon?</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>No. <stage>(She tears the page off her drawing block with her 'diagram' on
-                  it.)</stage> It concerns your heat engine. Improve it as you will, you can never
-               get out of it what you put in. It repays eleven pence in the shilling at most. The
-               penny is for this author's thoughts. (She gives the diagram to Septimus who looks at
-               it.)</ab>
-         </sp>
-         <sp>
-            <speaker>Noakes:</speaker>
-            <ab><stage>(Baffled again)</stage> Thank you, my lady.</ab>
-         </sp>
-         <stage>(Noakes goes out into the garden.)</stage>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab><stage>(To Septimus)</stage> Do you understand her?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>No.</ab>
-         </sp>
-         <sp>
-            <speaker>Lady Croom:</speaker>
-            <ab>Then this business is over. I was married at seventeen. Ce soir il faut qu'on parle
-               francais,je te demande, Thomasina, as a courtesy to the Count. Wear your green
-               velvet, please, I will send Briggs to do your hair. Sixteen and eleven months . . .!
-                  <stage>(She follows Noakes out of view.)</stage></ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Lord Byron was with a lady?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Yes.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Huh!</ab>
-         </sp>
-         <stage>(Now Septimus retrieves his book from Thomasina. He turns the pages, and also
-            continues to study Thomasina's diagram. He strokes the tortoise absently as he reads,
-            Thomasina takes up pencil and paper and starts to draw Septimus with Plautus.)</stage>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Why does it mean Mr Noakes's engine pays eleven pence in the shilling? Where does he
-               say it?</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Nowhere. I noticed it by the way. I cannot remember now. Septimus: Nor is he
-               interested by determinism -</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Oh . .. yes. Newton's equations go forwards and backwards, they do not care which
-               way. But the heat equation cares very much, it goes only one way. That is the reason
-               Mr Noakes's engine cannot give the power to drive Mr Noakes's engine.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus: </speaker>
-            <ab>Everybody knows that.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>Yes, Septimus, they know it about engines!</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab><stage>(Pause. He looks at his watch.)</stage> A quarter to twelve. For your essay
-               this week, explicate your diagram.</ab>
-         </sp>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>I cannot. I do not know the mathematics.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Without mathematics, then.</ab>
-         </sp>
-         <stage>(Thomasina has continued to draw. She tears the top page from her drawing pad and
-            gives it to Septimus.)</stage>
-         <sp>
-            <speaker>Thomasina:</speaker>
-            <ab>There. I have made a drawing of you and Plautus.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <stage>(Looking at it)</stage>
-            <ab>Excellent likeness. Not so good of me.</ab>
-            <stage>(Thomasina laughs, and leaves the room. Augustus appears at the garden door. His
-               manner cautious and diffident. Septimus does not notice him for a moment. Septimus
-               gathers his papers together.)</stage>
-         </sp>
-         <sp>
-            <speaker> Augustus:</speaker>
-            <ab>Sir .. .</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>My lord . . . ?</ab>
-         </sp>
-         <sp>
-            <speaker>Augustus:</speaker>
-            <ab>I gave you offence, sir, and I am sorry for it.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>I took none, my lord, but you are kind to mention it.</ab>
-         </sp>
-         <sp>
-            <speaker>Augustus:</speaker>
-            <ab>I would like to ask you a question, Mr Hodge. <stage>(Pause.)</stage> You have an
-               elder brother, I dare say, being a Septimus?</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>Yes, my lord. He lives in London. He is the editor of a newspaper, the Piccadilly
-               Recreation. <stage>(Pause.)</stage> Was that your question?</ab>
-         </sp>
-         <stage>(Augustus, evidently embarrassed about something, picks up the drawing of
-            Septimus.)</stage>
-         <sp>
-            <speaker>Augustus:</speaker>
-            <ab>No. Oh ... it is you? ... I would like to keep it. <stage>(Septimus inclines his
-                  head in assent.)</stage> There are things a fellow cannot ask his friends. Carnal
-               things. My sister has told me ... my sister believes such things as I cannot, I
-               assure you, bring myself to repeat.</ab>
-         </sp>
-         <sp>
-            <speaker>Septimus:</speaker>
-            <ab>You must not repeat them, then. The walk between here and dinner will suffice to put
-               us straight, if we stroll by the garden. It is an easy business. And then I must rely
-               on you to correct your sister's state of ignorance.</ab>
-         </sp>
-         <stage>(A commotion is heard outside - Bernard's loud voice in a sort of agony.)</stage>
-         <sp>
-            <speaker>Bernard:</speaker>
-            <ab><stage>(outside the door)</stage> Oh no - no - no - oh, bloody hell! -</ab>
-         </sp>
-         <sp>
-            <speaker>Augustus:</speaker>
-            <ab>Thank you, Mr Hodge, I will.</ab>
-         </sp>
-         <stage>(Taking the drawing with him, Augustus allows himself to be shown out through the
-            garden door, and Septimus follows him.)</stage>
-
+         <p>To the Honorable the Senate and House of Representatives of the United States in
+            Congress Assembled:</p>
+         <p>The undersigned, Citisens of the United States, believing that under the present Federal
+            Constitution all women who are citisens of the United States have the right to vote,
+            pray your Honorable Body to enact a law during the present session that shall assist and
+            protect them in the exercise of that right </p>
+         <p>And they pray further that they may be permitted in person, and in behalf of the
+            thousands of other women who are petitioning Congress to the same effect to be heard
+            upon this Memmoiral before the Senate and Hosue at an early day in the present
+            Session.</p>
+         <p>We ask your Honorable Body to bear in mind that while men are represented on the floor of Congress and so may be said to be heard there, women who are
+            allowed no vote and therefore no representation cannot truly be heard except as Congress
+            shall open its doors to us in person.</p>
+         <p>Elizabeth Cady Stanton 
+         Isabella Beecher Hooker 
+         Elizabeth S. Bladen 
+         Olympia Brown 
+         Susan B. Anthony 
+         Josephine S. Griffing 
+         Hartford Conn. 
+         Dec. 1871</p>
       </body>
    </text>
 </TEI>
