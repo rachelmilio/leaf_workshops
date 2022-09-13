@@ -4,8 +4,7 @@ Presenters: Diane Jakacki, Susan Brown, James Cummings, Mihaela Ilovan, Rachel M
 To access LEAF-Writer: https://leaf-writer.leaf-vre.org/[https://leaf-writer.leaf-vre.org/](https://leaf-writer.leaf-vre.org/)
 
 
-Access the Google slides for this workshop: https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing[https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing](https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing)
-
+Access the Google slides[https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing](https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing](https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing](https://docs.google.com/presentation/d/10e899QyGt-fN79SzKLckX57Vx_AlDbLA4RfmZ0jE_-U/edit?usp=sharing) for this workshop 
 
 
 # Exercise instructions
